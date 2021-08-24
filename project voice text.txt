@@ -1,0 +1,109 @@
+Now i am going to exicuting the code
+
+1. apart of this 1st option
+i'll describe rest portion this mini project.
+
+so in the coading section we storing the Data of crime record using MAP containner
+ 
+MAPs are used to replicate associative arrays
+
+Maps contains sorted key value  pair, 
+in which each keyis unique and cannot be changed
+and it can be inserted or deleted but cannot be altered
+
+-------------open code
+
+now here 
+we take 3 dataype 1st 
+crime_code for storing the crime section number
+crime_name[30];
+that will store the informationn of crime name;
+
+search_c it will store the crime code at the time of modify crime record section  
+
+alreay create map containner.
+here we take 2 keys value 
+1st is integer type that will store the crime section number
+
+and another is store crime name;
+
+so when the user is insert the value for crime section number 
+
+it will store into crime_code;
+
+and when user store crime name it will store into crime_name
+
+
+soo now using insert funtion 
+
+we store the value into object of map container that is Crime_L  
+with the using of pair class we take that value as a argument into pair class
+
+
+
+ 
+in modify section
+user inserted crime code value that ill be store into search_l 
+after that
+using find function we allow if condition to search crime code
+if crime code found
+first we erase last record using erase funtion
+and then insert new record using pair class
+and if the crime code is not found then you will see this massage
+
+in delete section
+user enter crime code
+that will store into this crime_code variable
+using count function we allow if condition to search crime code
+if crime code found
+then we erase last record using object.erase funtion
+
+and if the crime code is not found then you will see this massage
+
+View section
+we allow for loop to view data using iterator object from map starting key value to end key value using begin funtion and end  funtion
+and it will show the value using it obejct.first --->it will show 1st key value
+and object.second---> it will show 2nd key value
+
+and now i am going to output screen
+
+------------------------------
+:so the second option is Criminal Record.
+
+:if we want to enter a record of any criminal information
+then we choose this option 
+
+
+
+Criminal record information can be two types.
+
+it can be single person who done the crime
+
+or more then one person 
+who made crime named Gang record 
+
+:if we Choose single criminal file option we get new menu
+this is already visible 
+add criminal details
+modify criminal details
+delete criminal details
+view criminal details
+and the last is exit
+
+so we selecting the 1st option for adding a information of single criminal details
+
+so fir details is 101
+criminal name is raju
+crime date for example 08/10/2010
+and allocated officer :ramakant
+crime status is open
+which kind of crime is done by criminal 
+lets example is robbary
+is there any winess  
+:: yeah its 2 witnes
+enter witness name lets say:: rahul ravi
+and now the information of criminal is succeessfully recored.
+this process is done by using file handling 
+
+:so now we are go to the coading section for better understaning how these process will done 
+here 
